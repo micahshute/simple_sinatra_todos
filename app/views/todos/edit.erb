@@ -1,0 +1,12 @@
+
+
+<form action="/todos/<%= @todo.id %>" method="post">
+    <input type="hidden" name="_method" value="patch">
+    <input type="text" name="content" value="<%=@todo.content %>">
+    <input type="submit" value="Update" />
+</form>
+
+<form action="/todos/<%= @todo.id %>" method="post">
+    <input type="hidden" name="_method" value="delete">
+    <input type="submit" value="Delete Todo">
+</form>
