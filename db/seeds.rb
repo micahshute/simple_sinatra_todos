@@ -7,6 +7,8 @@ todos = [
     'Sleep'
 ]
 
+u = User.create(name: "Micah", username: "micah", password: "password")
+
 todos.each do |t|
-    Todo.create(content: t)
+    Todo.create(content: t, user: u)
 end

@@ -14,3 +14,5 @@ gem "sqlite3", "~> 1.4"
 gem "pry", "~> 0.13.1"
 
 gem "require_all", "~> 3.0"
+
+gem "bcrypt", "~> 3.1"
